@@ -4,7 +4,6 @@ A robust, Express.js backend service that transforms data between multiple forma
 
 ## Table of Contents
 
-- [Purpose](#purpose)
 - [Features](#features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -20,34 +19,6 @@ A robust, Express.js backend service that transforms data between multiple forma
   - [Test Coverage](#test-coverage)
   - [Manual Testing](#manual-testing)
 - [Example Data Formats](#example-data-formats)
-
-## Purpose
-
-This project provides a unified web service for transforming structured data between different formats, solving the integration challenge of systems that communicate using disparate data formats.
-
-**Key Use Cases:**
-
-- Convert legacy string-delimited data to modern JSON APIs
-
-- Serialize structured data to XML for third-party integrations
-
-- Normalize heterogeneous data formats from multiple sources
-
-- Bridge between old and new systems during platform migrations
-
-- Centralize data transformation logic across microservices
-
-**Problems Solved:**
-
-- **Format Fragmentation:** Eliminates manual format conversion logic scattered across codebases
-
-- **Maintainability:** Centralizes transformation rules in a single, testable service
-
-- **Extensibility:** Adding new formats requires minimal changes to existing code
-
-- **Reliability:** Type-safe transformations with comprehensive error handling
-
----
 
 ## Features
 
@@ -89,7 +60,7 @@ This project provides a unified web service for transforming structured data bet
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Spencerhutch/Document-Converter
    cd document-converter
    ```
 
