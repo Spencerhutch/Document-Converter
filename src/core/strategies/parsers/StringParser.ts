@@ -5,7 +5,10 @@ export class StringParser implements IParser {
     if (typeof data === 'string') {
       const { segmentDelineator = '~', elementDelineator = '*' } = options || {}
 
-      const segments = data.trim().split(segmentDelineator)
+      const segments = data
+        .trim()
+        .split(segmentDelineator)
+        .filter((s) => s.trim() !== '')
 
       if (
         segments.length === 0 ||
