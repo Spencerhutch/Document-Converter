@@ -115,6 +115,8 @@ Server (development) running on port http://localhost:8080
 - Visit `http://localhost:8080/api-docs` to access the interactive API documentation
 - Make requests to `POST http://localhost:8080/transform`
 
+**‼️ When posting an XML or plain/text body ensure to update the request body content-type to `text/plain`**
+
 ## Architecture & Design Decisions
 
 ### Overview
